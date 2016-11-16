@@ -1,0 +1,43 @@
+.banner{ width: 100%; height: 582px; overflow: hidden; position: relative;}
+.banner .ban{ width: 100%; height:560px; position: absolute;}
+.banner .ban a{ display: block; width: 100%; height: 100%;}
+.banner .circle{  position: absolute; bottom: 0; width: 100%; line-height:12px; height: 12px; text-align: center;}
+.banner .circle span{ width: 12px;height: 12px; line-height:12px; border-radius: 50%; display: inline-block; background: #e5e5e5; margin: 0 5px;}
+.banner .circle .on{ background: #1ab4c3;}
+
+.sec1{ width: 1000px; margin: 0 auto; margin-top: 80px;}
+.sec1 h1{ font-size: 32px; height: 32px; line-height:32px; color: #1ab4c3; font-weight: normal; text-align: center;}
+.sec1 em{ font-style: normal; text-transform: uppercase; font-size: 16px;  color: #c3c3c3; text-align: center; display: block; margin-top: 8px;}
+.sec1 .con{ width: 1000px; margin: 0 auto; margin-top: 50px; overflow: hidden;}
+.sec1 .con dl{ width: 176px; float: left; margin-right: 30px;}
+.sec1 .con dl:nth-child(5n){ margin-right: 0;}
+.sec1 .con dl dt{ width: 174px; height: 88px; border: 1px solid #e4e5e5;}
+.sec1 .con dl dd{ margin-top: 15px; width: 176px; text-align: center; font-size: 14px;}
+
+.sec2{ width: 1000px; margin: 0 auto; margin-top: 80px;}
+.sec2 h1{ font-size: 32px; height: 32px; line-height:32px; color: #1ab4c3; font-weight: normal; text-align: center;}
+.sec2 em{ font-style: normal; text-transform: uppercase; font-size: 16px;  color: #c3c3c3; text-align: center; display: block; margin-top: 8px;}
+.sec2 .con{ width: 1000px; margin: 0 auto; margin-top: 50px; overflow: hidden;}
+.sec2 .con dl{ width: 176px; float: left; margin-right: 30px;}
+.sec2 .con dl:nth-child(5n){ margin-right: 0;}
+.sec2 .con dl dt{ width: 174px; height: 88px; border: 1px solid #e4e5e5;}
+.sec2 .con dl dd{ margin-top: 15px; width: 176px; text-align: center; font-size: 14px;}
+
+.sec3{ width: 100%; margin-top: 80px; background: #f0f3f6; padding-top: 60px;}
+.sec3 h1{ font-size: 32px; height: 32px; line-height:32px; color: #1ab4c3; font-weight: normal; text-align: center;}
+.sec3 em{ font-style: normal; text-transform: uppercase; font-size: 16px;  color: #c3c3c3; text-align: center; display: block; margin-top: 8px;} 
+.sec3 p{ font-size: 20px; color: #1ab4c3; width: 540px; margin: 0 auto; text-align: center; line-height: 34px;}
+.sec3 .con{ width: 630px; margin: 0 auto; margin-top: 40px;}
+.sec3 .con dl{ text-align: center;}
+.sec3 .con dl dt img{ width: 110px; height: 110px; border-radius: 50%;}
+.sec3 .con dl dd{ width: 630px; margin-bottom: 80px;}
+.sec3 .con dl dd h2{ font-weight: normal; font-size: 20px;margin-top: 20px;}
+.sec3 .con dl dd p{ width: 630px; font-size: 14px; color: #666666; line-height: 30px;}
+.sec3 .con dl dd p:first-child{ margin-top: 12px;}
+
+.sec4{ width: 1000px; margin:0 auto; margin-top: 90px;}
+.sec4 .con{ width: 1000px; margin: 0 auto; overflow: hidden;}
+.sec4 .con dl{ float: left; width: 155px; text-align: center; margin-left: 134px;}
+.sec4 .con dl dt img{ width: 110px; height: 110px; border-radius: 50%;}
+.sec4 .con dl dd{ font-size: 14px; color: #666666; margin-top: 20px;}
+.sec4 .bot p{ font-size: 16px; color: #1ab4c3; text-align: center; margin-top: 60px; margin-bottom: 115px;}

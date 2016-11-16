@@ -1,0 +1,29 @@
+.banner{ width: 100%; height: 582px; overflow: hidden; position: relative;}
+.banner .ban{ width: 100%; height:560px; position: absolute;}
+.banner .ban a{ display: block; width: 100%; height: 100%;}
+.banner .circle{  position: absolute; bottom: 0; width: 100%; line-height:12px; height: 12px; text-align: center;}
+.banner .circle span{ width: 12px;height: 12px; line-height:12px; border-radius: 50%; display: inline-block; background: #e5e5e5; margin: 0 5px;}
+.banner .circle .on{ background: #1ab4c3;}
+
+.sec1{ width: 1000px; margin: 0 auto; margin-top: 80px;}
+.sec1 h1{ font-size: 32px; height: 32px; line-height:32px; color: #1ab4c3; font-weight: normal; text-align: center;}
+.sec1 em{ font-style: normal; text-transform: uppercase; font-size: 16px; color: #c3c3c3; text-align: center; display: block; margin-top: 8px;}
+.sec1 .con{ width: 1000px; margin-top: 50px; overflow: hidden;}
+.sec1 .con dl{ float: left; margin-bottom: 60px;}
+.sec1 .con dl:nth-child(2n+1){ margin-right: 60px;}
+.sec1 .con dl dd{ width: 470px;}
+.sec1 .con dl dd h2{ font-size: 16px; font-weight: normal; margin-top: 16px;}
+.sec1 .con dl dd p{ margin-top: 10px; color: #333;}
+.sec1 .bot{ width: 290px; margin: 0 auto; }
+.sec1 .bot a{ display: inline-block; width: 110px; line-height: 36px; text-align: center; border: 1px solid #dbdbdb; border-radius: 2px; margin: 0 15px;}
+.sec1 .bot a span{ margin: 0 5px;}
+.sec1 .bot a:hover{ text-decoration: none;}
+
+.sec2{ width: 1000px; height: 310px; margin: 0 auto; margin-top: 80px; overflow: hidden;}
+.sec2 dl{ overflow: hidden;}
+.sec2 dl dt{ float: left; margin-left: 40px;}
+.sec2 dl dd{ float: left; width: 450px; margin-top: 90px; margin-left: -50px;}
+.sec2 dl dd p{ font-size: 25px; line-height: 32px; color: #a4b1be;  }
+.sec2 dl dd p:first-child{ font-size: 50px; line-height:60px; color: #1ab4c3; text-transform: uppercase; }
+
+

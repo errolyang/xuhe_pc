@@ -1,0 +1,122 @@
+.banner{ width: 100%; height: 582px; overflow: hidden; position: relative;}
+.banner .ban{ width: 100%; height:560px; position: absolute;}
+.banner .ban a{ display: block; width: 100%; height: 100%;}
+.banner .circle{  position: absolute; bottom: 0; width: 100%; line-height:12px; height: 12px; text-align: center;}
+.banner .circle span{ width: 12px;height: 12px; line-height:12px; border-radius: 50%; display: inline-block; background: #e5e5e5; margin: 0 5px;}
+.banner .circle .on{ background: #1ab4c3;}
+
+.sec1{ width: 1000px; margin: 0 auto; margin-top: 80px;}
+.sec1 h1{ font-size: 32px; height: 32px; line-height:32px; color: #1ab4c3; font-weight: normal; text-align: center;}
+.sec1 em{ font-style: normal; text-transform: uppercase; font-size: 16px;  color: #c3c3c3; text-align: center; display: block; margin-top: 8px;}
+.sec1 p{ width: 815px; font-size: 14px; color: #666666; text-align: center; margin: 0 auto; margin-top: 20px; }
+.sec1 .con{ width: 1000px; margin: 0 auto; overflow: hidden;  }
+.sec1 .con dl{ float: left; width: 280px; margin-right: 80px; margin-top: 50px;}
+.sec1 .con dl:nth-child(3){ margin-right: 0}
+.sec1 .con dl:nth-child(6){ margin-right: 0}
+.sec1 .con dl dd h2{ font-weight: normal; font-size: 16px; margin-top: 10px;}
+.sec1 .con dl dd p{ width: 280px; font-size: 12px; color: #666666; text-align: left; margin-top: 9px;}
+
+.sec2{ width: 100%; height: 640px; margin-top: 80px; padding-top: 60px; background: #1ab4c3;}
+.sec2 h1{ font-size: 32px; height: 32px; line-height:32px; color: #fff; font-weight: normal; text-align: center;}
+.sec2 em{ font-style: normal; text-transform: uppercase; font-size: 16px;  color: #fff; text-align: center; display: block; margin-top: 8px;}
+.sec2 .con{ width:856px; height: 436px; margin: 0 auto; position: relative; margin-top: 40px; padding-top: 80px;}
+.sec2 .con .top{ width: 770px; height: 110px; border-left: 6px solid #40c1ce;  margin: 0 auto; }
+.sec2 .con .bot{ width: 770px; height: 175px; border-right: 6px solid #40c1ce; border-top: 6px solid #40c1ce;border-bottom: 6px solid #40c1ce; margin: 0 auto; border-radius: 5px;}
+.sec2 .con dl{ text-align: center; color: #fff;}
+.sec2 .con dl dt{ width: 80px; height: 80px; border-radius: 50%; background: #fff;  position: relative;}
+.sec2 .con dl dt span{ width: 80px; height: 80px; border-radius: 50%; display: block; position: absolute; top: 0; left: 0; }
+.sec2 .con dl dt span:hover{ background: rgba(151,246,255,0.5);}
+.sec2 .con dl dd{ margin-top: 5px;}
+i{ background: url(../images/icon.png) no-repeat; display: inline-block; }
+.sec2 .con .one dt i{ background-position: -4px 0; width: 30px; height: 38px; margin-top: 21px;}
+.sec2 .con .one{ position: absolute; top: 0; left: 0;}
+.sec2 .con .two dt i{ background-position: -54px -2px; width: 38px; height: 40px; margin-top: 20px;}
+.sec2 .con .two{ position: absolute; top: 147px; left: 0;}
+.sec2 .con .three dt i{ background-position: -102px 0; width: 40px; height: 39px; margin-top: 20px;}
+.sec2 .con .three{ position: absolute; top: 147px; left: 222px;}
+.sec2 .con .four dt i{ background-position: -3px -51px; width: 40px; height: 29px; margin-top: 25px;}
+.sec2 .con .four{ position: absolute; top: 147px; left: 444px;}
+.sec2 .con .five dt i{ background-position: -54px -51px; width: 40px; height: 40px; margin-top: 20px;}
+.sec2 .con .five{ position: absolute; top: 147px; left: 666px;}
+.sec2 .con .six dt i{ background-position: -110px -49px; width: 31px; height: 44px; margin-top: 18px;}
+.sec2 .con .six{ position: absolute; top: 335px; left: 0;}
+.sec2 .con .seven dt i{ background-position: -4px -103px; width: 42px; height: 42px; margin-top: 19px;}
+.sec2 .con .seven{ position: absolute; top: 335px; left: 222px;}
+.sec2 .con .eight dt i{ background-position: -67px -102px; width: 43px; height: 43px; margin-top: 19px;}
+.sec2 .con .eight{ position: absolute; top: 335px; left: 444px;}
+.sec2 .con .nine dt i{ background-position: -116px -108px; width: 43px; height: 32px; margin-top: 24px;}
+.sec2 .con .nine{ position: absolute; top: 335px; left: 666px;}
+
+.sec3{ width: 100%; height: 1400px; margin-top: 80px;}
+.sec3 h1{ font-size: 32px; height: 32px; line-height:32px; color: #1ab4c3; font-weight: normal; text-align: center;}
+.sec3 em{ font-style: normal; text-transform: uppercase; font-size: 16px;  color: #c3c3c3; text-align: center; display: block;}
+.sec3 .con{ width:1000px; margin: 0 auto; clear: both;}
+.sec3 .con .box1{ height: 170px; margin-top: 45px; }
+.sec3 .con .box1 dl{ float: left; width: 715px;}
+.sec3 .con .box1 dl dt{ float: left;}
+.sec3 .con .box1 dl dd{ float: right; width: 405px; margin-top: -5px;}
+.sec3 .con .box1 dl dd h2 a{ font-size: 16px; color: #2e2e2e;}
+.sec3 .con .box1 dl dd p{ margin-top: 5px;}
+.sec3 .con .box1 dl dd p a{ font-size: 12px; color: #7d7d7d;}
+.sec3 .con .box1 dl dd .comment{ margin-top: 20px;}
+.sec3 .con .box1 dl dd .comment span{ width: 225px; font-size: 14px; line-height: 14px; padding: 10px 90px 10px 15px; background: #eef2f6; display: inline-block; border-radius: 3px; }
+.sec3 .con .box1 dl dd .comment b{ display:inline-block; width: 0; height: 0; border-left: 8px solid transparent; border-right: 6px solid transparent; border-bottom: 8px solid #eef2f6; margin-left: 15px; margin-right: -6px; vertical-align: 8px;}
+.sec3 .con .box1 .right{ text-align: center; margin-top: 30px; color: #1ab4c3; margin-right: 60px;}
+.sec3 .con .box1 .right p{ font-size: 16px;}
+.sec3 .con .box1 .right button{ border: 0; width: 115px; height: 34px; font-size: 14px; color: #fff; background: #1ab4c3; line-height: 34px; margin-top: 10px; font-family: "Microsoft YaHei"; border-radius: 3px;}
+
+.sec3 .con .box2{ height: 170px; margin-top: 80px ; clear: both; }
+.sec3 .con .box2 dl{ float: left; width: 715px;}
+.sec3 .con .box2 dl dt{ float: left;}
+.sec3 .con .box2 dl dd{ float: right; width: 405px; margin-top: -5px;}
+.sec3 .con .box2 dl dd h2 a{ font-size: 16px; color: #2e2e2e;}
+.sec3 .con .box2 dl dd p{ margin-top: 5px;}
+.sec3 .con .box2 dl dd p a{ font-size: 12px; color: #7d7d7d;}
+.sec3 .con .box2 dl dd .comment{ margin-top: 20px;}
+.sec3 .con .box2 dl dd .comment span{ width: 225px; font-size: 14px; line-height: 14px; padding: 10px 90px 10px 15px; background: #eef2f6; display: inline-block; border-radius: 3px; }
+.sec3 .con .box2 dl dd .comment b{ display:inline-block; width: 0; height: 0; border-left: 8px solid transparent; border-right: 6px solid transparent; border-bottom: 8px solid #eef2f6; margin-left: 15px; margin-right: -6px; vertical-align: 8px;}
+.sec3 .con .box2 .right{ text-align: center; margin-top: 30px; color: #1ab4c3; margin-right: 60px;}
+.sec3 .con .box2 .right p{ font-size: 16px;}
+.sec3 .con .box2 .right button{ border: 0; width: 115px; height: 34px; font-size: 14px; color: #fff; background: #1ab4c3; line-height: 34px; margin-top: 10px; font-family: "Microsoft YaHei"; border-radius: 3px;}
+
+.sec3 .con .box3{ height: 170px; margin-top: 80px ; clear: both; }
+.sec3 .con .box3 dl{ float: left; width: 715px;}
+.sec3 .con .box3 dl dt{ float: left;}
+.sec3 .con .box3 dl dd{ float: right; width: 405px; margin-top: -5px;}
+.sec3 .con .box3 dl dd h2 a{ font-size: 16px; color: #2e2e2e;}
+.sec3 .con .box3 dl dd p{ margin-top: 5px;}
+.sec3 .con .box3 dl dd p a{ font-size: 12px; color: #7d7d7d;}
+.sec3 .con .box3 dl dd .comment{ margin-top: 20px;}
+.sec3 .con .box3 dl dd .comment span{ width: 225px; font-size: 14px; line-height: 14px; padding: 10px 90px 10px 15px; background: #eef2f6; display: inline-block; border-radius: 3px; }
+.sec3 .con .box3 dl dd .comment b{ display:inline-block; width: 0; height: 0; border-left: 8px solid transparent; border-right: 6px solid transparent; border-bottom: 8px solid #eef2f6; margin-left: 15px; margin-right: -6px; vertical-align: 8px;}
+.sec3 .con .box3 .right{ text-align: center; margin-top: 30px; color: #1ab4c3; margin-right: 60px;}
+.sec3 .con .box3 .right p{ font-size: 16px;}
+.sec3 .con .box3 .right button{ border: 0; width: 115px; height: 34px; font-size: 14px; color: #fff; background: #1ab4c3; line-height: 34px; margin-top: 10px; font-family: "Microsoft YaHei"; border-radius: 3px;}
+
+.sec3 .con .box4{ height: 170px; margin-top: 80px ; clear: both; }
+.sec3 .con .box4 dl{ float: left; width: 715px;}
+.sec3 .con .box4 dl dt{ float: left;}
+.sec3 .con .box4 dl dd{ float: right; width: 405px; margin-top: -5px;}
+.sec3 .con .box4 dl dd h2 a{ font-size: 16px; color: #2e2e2e;}
+.sec3 .con .box4 dl dd p{ margin-top: 5px;}
+.sec3 .con .box4 dl dd p a{ font-size: 12px; color: #7d7d7d;}
+.sec3 .con .box4 dl dd .comment{ margin-top: 20px;}
+.sec3 .con .box4 dl dd .comment span{ width: 225px; font-size: 14px; line-height: 14px; padding: 10px 90px 10px 15px; background: #eef2f6; display: inline-block; border-radius: 3px; }
+.sec3 .con .box4 dl dd .comment b{ display:inline-block; width: 0; height: 0; border-left: 8px solid transparent; border-right: 6px solid transparent; border-bottom: 8px solid #eef2f6; margin-left: 15px; margin-right: -6px; vertical-align: 8px;}
+.sec3 .con .box4 .right{ text-align: center; margin-top: 30px; color: #1ab4c3; margin-right: 60px;}
+.sec3 .con .box4 .right p{ font-size: 16px;}
+.sec3 .con .box4 .right button{ border: 0; width: 115px; height: 34px; font-size: 14px; color: #fff; background: #1ab4c3; line-height: 34px; margin-top: 10px; font-family: "Microsoft YaHei"; border-radius: 3px;}
+
+.sec3 .con .box5{ height: 170px; margin-top: 80px ; clear: both; }
+.sec3 .con .box5 dl{ float: left; width: 715px;}
+.sec3 .con .box5 dl dt{ float: left;}
+.sec3 .con .box5 dl dd{ float: right; width: 405px; margin-top: -5px;}
+.sec3 .con .box5 dl dd h2 a{ font-size: 16px; color: #2e2e2e;}
+.sec3 .con .box5 dl dd p{ margin-top: 5px;}
+.sec3 .con .box5 dl dd p a{ font-size: 12px; color: #7d7d7d;}
+.sec3 .con .box5 dl dd .comment{ margin-top: 20px;}
+.sec3 .con .box5 dl dd .comment span{ width: 225px; font-size: 14px; line-height: 14px; padding: 10px 90px 10px 15px; background: #eef2f6; display: inline-block; border-radius: 3px; }
+.sec3 .con .box5 dl dd .comment b{ display:inline-block; width: 0; height: 0; border-left: 8px solid transparent; border-right: 6px solid transparent; border-bottom: 8px solid #eef2f6; margin-left: 15px; margin-right: -6px; vertical-align: 8px;}
+.sec3 .con .box5 .right{ text-align: center; margin-top: 30px; color: #1ab4c3; margin-right: 60px;}
+.sec3 .con .box5 .right p{ font-size: 16px;}
+.sec3 .con .box5 .right button{ border: 0; width: 115px; height: 34px; font-size: 14px; color: #fff; background: #1ab4c3; line-height: 34px; margin-top: 10px; font-family: "Microsoft YaHei"; border-radius: 3px;}

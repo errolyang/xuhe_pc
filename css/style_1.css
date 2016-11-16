@@ -1,0 +1,69 @@
+.banner{ width: 100%; height: 582px; overflow: hidden; position: relative;}
+.banner .ban{ width: 100%; height:560px; position: absolute;}
+.banner .ban a{ display: block; width: 100%; height: 100%;}
+.banner .circle{  position: absolute; bottom: 0; width: 100%; line-height:12px; height: 12px; text-align: center;}
+.banner .circle span{ width: 12px;height: 12px; line-height:12px; border-radius: 50%; display: inline-block; background: #e5e5e5; margin: 0 5px;}
+.banner .circle .on{ background: #1ab4c3;}
+
+main .sec1{ width: 100%; margin-top: 90px;}
+main .sec1 h1{ font-size: 32px; height: 32px; line-height:32px; color: #1ab4c3; font-weight: normal; text-align: center;}
+main .sec1 em{ font-style: normal; text-transform: uppercase; font-size: 14px;  color: #c3c3c3; text-align: center; display: block;}
+main .sec1 .con{ width: 975px; margin: 0 auto; margin-top: 47px; overflow: hidden;}
+main .sec1 .con dl{ float: left; text-align: center; margin-right: 100px;}
+main .sec1 .con dl:last-child{ margin-right: 0;}
+main .sec1 .con dl dd{ margin-top: 15px;}
+main .sec1 .con dl dd a{ font-size: 16px; color: #2e2e2e;}
+
+main .sec2{ width: 100%; height: 405px; background: #f0f3f6; margin-top: 80px;}
+main .sec2 dl{ width: 1000px; margin: 0 auto; overflow: hidden;}
+main .sec2 dl dt{ float: left; margin-left: 50px;}
+main .sec2 dl dd{ float: right; width: 454px; margin: 150px 40px 0 10px;}
+main .sec2 dl dd h1{ font-size: 32px; height: 32px; line-height:32px; color: #1ab4c3; font-weight: normal; }
+main .sec2 dl dd h1 em{ font-style: normal; text-transform: uppercase; font-size: 16px; margin-left: 13px; color: #c3c3c3; }
+main .sec2 dl dd p{ font-size: 14px; color: #666666; margin-top: 15px ;}
+
+main .sec3{ width: 100%; margin-top: 80px;}
+main .sec3 h1{ font-size: 32px; height: 32px; line-height:32px; color: #1ab4c3; font-weight: normal; text-align: center;}
+main .sec3 em{ font-style: normal; text-transform: uppercase; font-size: 14px;  color: #c3c3c3; text-align: center; display: block;}
+main .sec3 .con{ width: 1000px; margin: 0 auto; margin-top: 60px; overflow: hidden;}
+main .sec3 .con .right{ width: 670px;}
+main .sec3 .con .right a{ display: block; float: left; }
+
+main .sec4{ width: 100%; margin-top: 135px;}
+main .sec4 h1{ font-size: 32px; height: 32px; line-height:32px; color: #1ab4c3; font-weight: normal; text-align: center;}
+main .sec4 em{ font-style: normal; text-transform: uppercase; font-size: 14px;  color: #c3c3c3; text-align: center; display: block;}
+main .sec4 .con{ width:1000px; margin: 0 auto; clear: both;}
+main .sec4 .con .box1{ height: 170px; margin-top: 45px; }
+main .sec4 .con .box1 dl{ float: left; width: 715px;}
+main .sec4 .con .box1 dl dt{ float: left;}
+main .sec4 .con .box1 dl dd{ float: right; width: 405px; margin-top: -5px;}
+main .sec4 .con .box1 dl dd h2 a{ font-size: 16px; color: #2e2e2e;}
+main .sec4 .con .box1 dl dd p{ margin-top: 5px;}
+main .sec4 .con .box1 dl dd p a{ font-size: 12px; color: #7d7d7d;}
+main .sec4 .con .box1 dl dd .comment{ margin-top: 20px;}
+/*本来想用:before写的，奈何一直调不对只能用笨办法了*/
+main .sec4 .con .box1 dl dd .comment span{ width: 225px; font-size: 14px; line-height: 14px; padding: 10px 90px 10px 15px; background: #eef2f6; display: inline-block; border-radius: 3px; }
+main .sec4 .con .box1 dl dd .comment b{ display:inline-block; width: 0; height: 0; border-left: 8px solid transparent; border-right: 6px solid transparent; border-bottom: 8px solid #eef2f6; margin-left: 15px; margin-right: -6px; vertical-align: 8px;}
+main .sec4 .con .box1 .right{ text-align: center; margin-top: 30px; color: #1ab4c3; margin-right: 60px;}
+main .sec4 .con .box1 .right p{ font-size: 16px;}
+main .sec4 .con .box1 .right button{ border: 0; width: 115px; height: 34px; font-size: 14px; color: #fff; background: #1ab4c3; line-height: 34px; margin-top: 10px; font-family: "Microsoft YaHei"; border-radius: 3px;}
+
+main .sec4 .con .box2{ height: 170px; margin-top: 80px ; clear: both; }
+main .sec4 .con .box2 dl{ float: left; width: 715px;}
+main .sec4 .con .box2 dl dt{ float: left;}
+main .sec4 .con .box2 dl dd{ float: right; width: 405px; margin-top: -5px;}
+main .sec4 .con .box2 dl dd h2 a{ font-size: 16px; color: #2e2e2e;}
+main .sec4 .con .box2 dl dd p{ margin-top: 5px;}
+main .sec4 .con .box2 dl dd p a{ font-size: 12px; color: #7d7d7d;}
+main .sec4 .con .box2 dl dd .comment{ margin-top: 20px;}
+main .sec4 .con .box2 dl dd .comment span{ width: 225px; font-size: 14px; line-height: 14px; padding: 10px 90px 10px 15px; background: #eef2f6; display: inline-block; border-radius: 3px; }
+main .sec4 .con .box2 dl dd .comment b{ display:inline-block; width: 0; height: 0; border-left: 8px solid transparent; border-right: 6px solid transparent; border-bottom: 8px solid #eef2f6; margin-left: 15px; margin-right: -6px; vertical-align: 8px;}
+main .sec4 .con .box2 .right{ text-align: center; margin-top: 30px; color: #1ab4c3; margin-right: 60px;}
+main .sec4 .con .box2 .right p{ font-size: 16px;}
+main .sec4 .con .box2 .right button{ border: 0; width: 115px; height: 34px; font-size: 14px; color: #fff; background: #1ab4c3; line-height: 34px; margin-top: 10px; font-family: "Microsoft YaHei"; border-radius: 3px;}
+
+main .sec5{ width: 1000px; height:332px; margin: 0 auto; margin-top: 75px; position: relative; overflow: hidden;}
+main .sec5 .con{ width: 1000px;  margin: 0 auto; margin-top: 115px;}
+main .sec5 .con p:first-child{ font-size: 50px; line-height:60px; color: #1ab4c3; text-transform: uppercase; text-align: center;}
+main .sec5 .con p:last-child{ width: 275px; font-size: 25px; line-height: 32px; color: #a4b1be;  margin-left: 245px;}
+main .sec5 .top{ position: absolute; top: 0; left: 514px; z-index: 3; }

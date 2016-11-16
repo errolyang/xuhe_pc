@@ -1,0 +1,18 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,section, article, aside, header, footer, nav, dialog, figure,menu,hgroup,iframe{ margin:0; padding:0; border:0; }
+html{ -webkit-text-size-adjust:none;}
+body{ font-family:"Lantinghei SC", "Open Sans", Arial, "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", "STHeiti", "WenQuanYi Micro Hei", SimSun, sans-serif; font-size:12px; line-height:24px; background:#fff;  -webkit-font-smoothing: antialiased; -moz-font-smoothing: antialiased;  font-smoothing: antialiased;  color:#000; }
+
+*{ margin:0;padding:0; }
+input,textarea{ resize:none; font-family:"Microsoft YaHei"; background: #fff; border: 0;  }
+img{ border:none; vertical-align:middle; }
+ul,li{ list-style:none; color: #000;}
+a{ text-decoration:none; color:#000; outline:none; }
+a:hover{ color:#000; text-decoration: underline;}
+input:focus,textarea:focus{ outline:none; }
+button{ outline: none; cursor: pointer;}
+
+
+
+.fl{ float: left;}
+.fr{ float: right;}
+.or{ overflow: hidden;}

@@ -1,0 +1,132 @@
+.banner{ width: 100%; height: 582px; overflow: hidden; position: relative;}
+.banner .ban{ width: 100%; height:560px; position: absolute;}
+.banner .ban a{ display: block; width: 100%; height: 100%;}
+.banner .circle{  position: absolute; bottom: 0; width: 100%; line-height:12px; height: 12px; text-align: center;}
+.banner .circle span{ width: 12px;height: 12px; line-height:12px; border-radius: 50%; display: inline-block; background: #e5e5e5; margin: 0 5px;}
+.banner .circle .on{ background: #1ab4c3;}
+
+main .sec1{ width: 100%; margin-top: 80px;}
+main .sec1 h1{ font-size: 32px; height: 32px; line-height:32px; color: #1ab4c3; font-weight: normal; text-align: center;}
+main .sec1 em{ font-style: normal; text-transform: uppercase; font-size: 14px;  color: #c3c3c3; text-align: center; display: block;}
+main .sec1 p{ width: 700px; margin: 0 auto;}
+main .sec1 .con{ width: 840px; margin: 0 auto; overflow: hidden;}
+main .sec1 .con dl{ float: left; margin-top: 50px;}
+main .sec1 .con dl dt img{ width: 168px; height: 168px; border-radius: 50%;}
+main .sec1 .con dl:nth-child(2){ margin: 50px 168px 0 168px;}
+main .sec1 .con dl:nth-child(5){ margin: 50px 168px 0 168px;}
+main .sec1 .con dl dd{ font-size: 16px; text-align: center; margin-top: 15px;}
+
+main .sec2{ width: 100%; height: 400px; margin-top: 80px; background: #f0f3f6; clear: both;}
+main .sec2 dl{ width: 1000px; margin: 0 auto; overflow: hidden;}
+main .sec2 dl dt{ float: left; margin-left: 20px; margin-top: 10px;}
+main .sec2 dl dd{ width: 455px; float: left; margin-left: 50px; margin-top: 130px;}
+main .sec2 dl dd h1{ font-size: 32px; height: 32px; line-height:32px; color: #1ab4c3; font-weight: normal; }
+main .sec2 dl dd p{ font-size: 14px; color: #2e2e2e; margin-top: 15px;}
+
+main .sec3{ width: 1000px; margin: 0 auto; margin-top: 80px; clear: both;}
+main .sec3 h1{ font-size: 32px; height: 32px; line-height:32px; color: #1ab4c3; font-weight: normal; text-align: center;}
+main .sec3 em{ font-style: normal; text-transform: uppercase; font-size: 14px;  color: #c3c3c3; text-align: center; display: block;}
+main .sec3 .con{ width: 1000px; margin: 0 auto; margin-top: 35px; overflow: hidden;}
+main .sec3 .con dl{ float: left;}
+main .sec3 .con dl:nth-child(2){ margin: 0 80px;}
+main .sec3 .con dl:nth-child(5){ margin: 0 80px;}
+main .sec3 .con dl dd{ width: 280px;}
+main .sec3 .con dl dd h2{ font-size: 16px; font-weight: normal; margin-top: 13px;}
+main .sec3 .con dl dd p{ color: #666; margin-top: 6px;}
+
+main .sec4{ width: 100%; height: 595px; background: #f0f3f6; clear: both; margin-top: 80px; padding-top: 55px;}
+main .sec4 h1{ font-size: 32px; height: 32px; line-height:32px; color: #1ab4c3; font-weight: normal; text-align: center; }
+main .sec4 em{ font-style: normal; text-transform: uppercase; font-size: 14px;  color: #c3c3c3; text-align: center; display: block;}
+main .sec4 .con{ width: 1000px; margin: 0 auto; margin-top: 60px; overflow: hidden;}
+main .sec4 .con .right{ width: 670px;}
+main .sec4 .con .right a{ display: block; float: left; }
+
+main .sec5{ width: 100%; margin-top: 135px;}
+main .sec5 h1{ font-size: 32px; height: 32px; line-height:32px; color: #1ab4c3; font-weight: normal; text-align: center;}
+main .sec5 em{ font-style: normal; text-transform: uppercase; font-size: 14px;  color: #c3c3c3; text-align: center; display: block;}
+main .sec5 .con{ width:1000px; margin: 0 auto; clear: both;}
+main .sec5 .con .box1{ height: 170px; margin-top: 45px; }
+main .sec5 .con .box1 dl{ float: left; width: 715px;}
+main .sec5 .con .box1 dl dt{ float: left;}
+main .sec5 .con .box1 dl dd{ float: right; width: 405px; margin-top: -5px;}
+main .sec5 .con .box1 dl dd h2 a{ font-size: 16px; color: #2e2e2e;}
+main .sec5 .con .box1 dl dd p{ margin-top: 5px;}
+main .sec5 .con .box1 dl dd p a{ font-size: 12px; color: #7d7d7d;}
+main .sec5 .con .box1 dl dd .comment{ margin-top: 20px;}
+main .sec5 .con .box1 dl dd .comment span{ width: 225px; font-size: 14px; line-height: 14px; padding: 10px 90px 10px 15px; background: #eef2f6; display: inline-block; border-radius: 3px; }
+main .sec5 .con .box1 dl dd .comment b{ display:inline-block; width: 0; height: 0; border-left: 8px solid transparent; border-right: 6px solid transparent; border-bottom: 8px solid #eef2f6; margin-left: 15px; margin-right: -6px; vertical-align: 8px;}
+main .sec5 .con .box1 .right{ text-align: center; margin-top: 30px; color: #1ab4c3; margin-right: 60px;}
+main .sec5 .con .box1 .right p{ font-size: 16px;}
+main .sec5 .con .box1 .right button{ border: 0; width: 115px; height: 34px; font-size: 14px; color: #fff; background: #1ab4c3; line-height: 34px; margin-top: 10px; font-family: "Microsoft YaHei"; border-radius: 3px;}
+
+main .sec5 .con .box2{ height: 170px; margin-top: 80px ; clear: both; }
+main .sec5 .con .box2 dl{ float: left; width: 715px;}
+main .sec5 .con .box2 dl dt{ float: left;}
+main .sec5 .con .box2 dl dd{ float: right; width: 405px; margin-top: -5px;}
+main .sec5 .con .box2 dl dd h2 a{ font-size: 16px; color: #2e2e2e;}
+main .sec5 .con .box2 dl dd p{ margin-top: 5px;}
+main .sec5 .con .box2 dl dd p a{ font-size: 12px; color: #7d7d7d;}
+main .sec5 .con .box2 dl dd .comment{ margin-top: 20px;}
+main .sec5 .con .box2 dl dd .comment span{ width: 225px; font-size: 14px; line-height: 14px; padding: 10px 90px 10px 15px; background: #eef2f6; display: inline-block; border-radius: 3px; }
+main .sec5 .con .box2 dl dd .comment b{ display:inline-block; width: 0; height: 0; border-left: 8px solid transparent; border-right: 6px solid transparent; border-bottom: 8px solid #eef2f6; margin-left: 15px; margin-right: -6px; vertical-align: 8px;}
+main .sec5 .con .box2 .right{ text-align: center; margin-top: 30px; color: #1ab4c3; margin-right: 60px;}
+main .sec5 .con .box2 .right p{ font-size: 16px;}
+main .sec5 .con .box2 .right button{ border: 0; width: 115px; height: 34px; font-size: 14px; color: #fff; background: #1ab4c3; line-height: 34px; margin-top: 10px; font-family: "Microsoft YaHei"; border-radius: 3px;}
+
+main .sec5 .con .box3{ height: 170px; margin-top: 80px ; clear: both; }
+main .sec5 .con .box3 dl{ float: left; width: 715px;}
+main .sec5 .con .box3 dl dt{ float: left;}
+main .sec5 .con .box3 dl dd{ float: right; width: 405px; margin-top: -5px;}
+main .sec5 .con .box3 dl dd h2 a{ font-size: 16px; color: #2e2e2e;}
+main .sec5 .con .box3 dl dd p{ margin-top: 5px;}
+main .sec5 .con .box3 dl dd p a{ font-size: 12px; color: #7d7d7d;}
+main .sec5 .con .box3 dl dd .comment{ margin-top: 20px;}
+main .sec5 .con .box3 dl dd .comment span{ width: 225px; font-size: 14px; line-height: 14px; padding: 10px 90px 10px 15px; background: #eef2f6; display: inline-block; border-radius: 3px; }
+main .sec5 .con .box3 dl dd .comment b{ display:inline-block; width: 0; height: 0; border-left: 8px solid transparent; border-right: 6px solid transparent; border-bottom: 8px solid #eef2f6; margin-left: 15px; margin-right: -6px; vertical-align: 8px;}
+main .sec5 .con .box3 .right{ text-align: center; margin-top: 30px; color: #1ab4c3; margin-right: 60px;}
+main .sec5 .con .box3 .right p{ font-size: 16px;}
+main .sec5 .con .box3 .right button{ border: 0; width: 115px; height: 34px; font-size: 14px; color: #fff; background: #1ab4c3; line-height: 34px; margin-top: 10px; font-family: "Microsoft YaHei"; border-radius: 3px;}
+
+main .sec5 .con .box4{ height: 170px; margin-top: 80px ; clear: both; }
+main .sec5 .con .box4 dl{ float: left; width: 715px;}
+main .sec5 .con .box4 dl dt{ float: left;}
+main .sec5 .con .box4 dl dd{ float: right; width: 405px; margin-top: -5px;}
+main .sec5 .con .box4 dl dd h2 a{ font-size: 16px; color: #2e2e2e;}
+main .sec5 .con .box4 dl dd p{ margin-top: 5px;}
+main .sec5 .con .box4 dl dd p a{ font-size: 12px; color: #7d7d7d;}
+main .sec5 .con .box4 dl dd .comment{ margin-top: 20px;}
+main .sec5 .con .box4 dl dd .comment span{ width: 225px; font-size: 14px; line-height: 14px; padding: 10px 90px 10px 15px; background: #eef2f6; display: inline-block; border-radius: 3px; }
+main .sec5 .con .box4 dl dd .comment b{ display:inline-block; width: 0; height: 0; border-left: 8px solid transparent; border-right: 6px solid transparent; border-bottom: 8px solid #eef2f6; margin-left: 15px; margin-right: -6px; vertical-align: 8px;}
+main .sec5 .con .box4 .right{ text-align: center; margin-top: 30px; color: #1ab4c3; margin-right: 60px;}
+main .sec5 .con .box4 .right p{ font-size: 16px;}
+main .sec5 .con .box4 .right button{ border: 0; width: 115px; height: 34px; font-size: 14px; color: #fff; background: #1ab4c3; line-height: 34px; margin-top: 10px; font-family: "Microsoft YaHei"; border-radius: 3px;}
+
+main .sec5 .con .box5{ height: 170px; margin-top: 80px ; clear: both; }
+main .sec5 .con .box5 dl{ float: left; width: 715px;}
+main .sec5 .con .box5 dl dt{ float: left;}
+main .sec5 .con .box5 dl dd{ float: right; width: 405px; margin-top: -5px;}
+main .sec5 .con .box5 dl dd h2 a{ font-size: 16px; color: #2e2e2e;}
+main .sec5 .con .box5 dl dd p{ margin-top: 5px;}
+main .sec5 .con .box5 dl dd p a{ font-size: 12px; color: #7d7d7d;}
+main .sec5 .con .box5 dl dd .comment{ margin-top: 20px;}
+main .sec5 .con .box5 dl dd .comment span{ width: 225px; font-size: 14px; line-height: 14px; padding: 10px 90px 10px 15px; background: #eef2f6; display: inline-block; border-radius: 3px; }
+main .sec5 .con .box5 dl dd .comment b{ display:inline-block; width: 0; height: 0; border-left: 8px solid transparent; border-right: 6px solid transparent; border-bottom: 8px solid #eef2f6; margin-left: 15px; margin-right: -6px; vertical-align: 8px;}
+main .sec5 .con .box5 .right{ text-align: center; margin-top: 30px; color: #1ab4c3; margin-right: 60px;}
+main .sec5 .con .box5 .right p{ font-size: 16px;}
+main .sec5 .con .box5 .right button{ border: 0; width: 115px; height: 34px; font-size: 14px; color: #fff; background: #1ab4c3; line-height: 34px; margin-top: 10px; font-family: "Microsoft YaHei"; border-radius: 3px;}
+
+main .sec6{ width: 1000px; height:300px; margin: 0 auto; margin-top: 75px; position: relative; overflow: hidden;}
+main .sec6 .con{ width: 1000px;  margin: 0 auto; margin-top: 90px;}
+main .sec6 .con p:first-child{ font-size: 50px; line-height:60px; color: #1ab4c3; text-transform: uppercase; text-align: center;}
+main .sec6 .con p:last-child{ width: 275px; font-size: 25px; line-height: 32px; color: #a4b1be;  margin-left: 245px;}
+main .sec6 .top{ position: absolute; top: 0; left: 564px; z-index: 3; }
+
+.sec7 .bot{ width: 100%; height: 100%; background: rgba(0,0,0,0.6); position: fixed; top: 0; left: 0; z-index: 5; display: none;}
+.sec7 .top{ width: 500px; height: 500px; background:#fff; position: fixed; top: 50%; left: 50%; margin-left: -250px; margin-top: -250px; z-index: 6; display: none;}
+.sec7 .top form{ width: 380px; margin: 0 auto;}
+.sec7 .top button{ border: 0; width:16px; height: 16px; float: right; margin-top: 20px; margin-right: 20px; display: block;}
+.sec7 .top button i{ background: url(../images/icon.jpg) no-repeat; background-position: -23px 0; width: 16px; height: 16px; display: inline-block;}
+.sec7 .top form h3{ font-weight: normal; font-size: 22px; color: #1ab4c3; margin-top: 40px;}
+.sec7 .top form input{ width: 358px; height: 14px; padding: 15px 10px; border: 1px solid #d1d1d1; margin-top: 13px;}
+.sec7 .top form textarea{ width: 358px; height: 88px; padding: 15px 10px; border: 1px solid #d1d1d1; margin-top: 13px;}
+.sec7 .top form input:last-child{ width:380px; background: #1ab4c3; text-align: center; line-height: 44px; height:44px; color: #fff; font-size: 16px; padding: 0; border: 0;}

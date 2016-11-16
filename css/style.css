@@ -1,0 +1,104 @@
+header{ width: 100%; height: 90px; min-width: 1000px;}
+header .head{ width: 1000px; height: 90px; margin: 0 auto;}
+header .head .logo { margin-top: 20px;}
+header .head ul{ float: right;}
+header .head ul li{ float: left; font-size: 14px; line-height: 90px;  }
+header .head ul li a{ display: block; padding: 0 30px; font-family: "Microsoft YaHei"; color: #444444;}
+header .head ul li a:hover{ color:#fff; background: #1ab4c3;}
+header .head ul .on a{ color:#fff; background: #1ab4c3;}
+
+.banner{ width: 100%; height: 582px; overflow: hidden; position: relative;}
+.banner .ban{ width: 100%; height:560px; position: absolute;}
+.banner .ban a{ display: block; width: 100%; height: 100%;}
+.banner .circle{  position: absolute; bottom: 0; width: 100%; line-height:12px; height: 12px; text-align: center;}
+.banner .circle span{ width: 12px;height: 12px; line-height:12px; border-radius: 50%; display: inline-block; background: #e5e5e5; margin: 0 5px;}
+.banner .circle .on{ background: #1ab4c3;}
+
+main .sec1{ width: 100%; margin-top: 75px; border-bottom: 1px solid #e7eaef;}
+main .sec1 dl{ width: 1000px; margin: 0 auto; overflow: hidden;}
+main .sec1 dl dt{ float: left; margin: 0 50px; }
+main .sec1 dl dd{ float: left; width: 635px;}
+main .sec1 dl dd h1{ font-size: 32px; height: 32px; line-height:32px; color: #1ab4c3; font-weight: normal; }
+main .sec1 dl dd h1 em{ font-style: normal; text-transform: uppercase; font-size: 16px; margin-left: 13px; color: #c3c3c3; }
+main .sec1 dl dd p{ font-size: 14px; color: #666666; margin: 15px 0 10px 0;}
+main .sec1 dl dd p a{ color: #fff; }
+main .sec1 dl dd p a span{ margin-right: 5px;}
+main .sec1 dl dd p a:hover{ text-decoration: none;}
+main .sec1 dl dd p:last-child{ color: #fff; width: 90px; line-height: 30px; text-align: center; background: #1ab4c3;}
+
+main .sec2{ width: 1000px; margin: 0 auto; margin-top: 80px; clear: both;}
+main .sec2 h1{ font-size: 32px; height: 32px; line-height:32px; color: #1ab4c3; font-weight: normal; text-align: center;}
+main .sec2 em{ font-style: normal; text-transform: uppercase; font-size: 16px;  color: #c3c3c3; text-align: center; display: block; margin-top: 8px;}
+main .sec2 .con{ width: 1000px; margin: 0 auto; margin-top: 56px; overflow: hidden;}
+main .sec2 .con dl{ float: left; margin: 0 50px;}
+main .sec2 .con dl dt{ margin: 0 25px;}
+main .sec2 .con dl dd{ width: 217px; margin-top: 20px; }
+main .sec2 .con dl dd h2{ font-size: 18px; color: #2e2e2e; font-weight: normal; text-align: center;}
+main .sec2 .con dl dd p{ color: #666666; }
+
+main .sec3{ width: 100%; height: 670px; background: #f0f3f6; margin-top: 80px; min-width: 1000px;}
+main .sec3 h1{ font-size: 32px; height: 32px; line-height:32px; color: #1ab4c3; font-weight: normal; text-align: center; padding-top: 60px;}
+main .sec3 em{ font-style: normal; text-transform: uppercase; font-size: 16px; margin-left: 13px; color: #c3c3c3; text-align: center; display: block; margin-top: 8px;}
+main .sec3 .con{ width: 1000px; margin: 0 auto; margin-top: 60px; overflow: hidden; color: #fff;}
+main .sec3 .con h3{ font-size: 22px; font-weight: normal;}
+main .sec3 .con .right dl:nth-child(2) dd h4{ font-size: 26px; margin-bottom: 5px;}
+main .sec3 .con .right dl:nth-child(2) dd h4 span{ text-transform: uppercase; }
+main .sec3 .con .right dl:nth-child(2) dd p{ font-size: 16px;}
+main .sec3 .con .left{ width: 330px;}
+main .sec3 .con .right{ width: 670px;}
+main .sec3 .con .left dl{ width: 330px; height: 380px; position: relative;}
+main .sec3 .con .left dd{ position: absolute; bottom: 15px; left: 18px; z-index: 3;}
+main .sec3 .con .right dl{ float: left; width: 335px; height: 190px; position: relative;}
+main .sec3 .con .right dd{ position: absolute; bottom: 15px; left: 18px; z-index: 3;}
+/*以下是渐变实现，搞了好久终于弄明白了！！！*/
+main .sec3 .con .left dl dt a span{ width: 330px;height: 380px; display: block; background:rgba(26,180,195,0.5); position: absolute; top: 0; left: 0; z-index: 2;}
+main .sec3 .con .left dl dt a span:hover{  background: -webkit-linear-gradient(top,rgba(0,0,0,0),#000);}
+main .sec3 .con .right dl dt a span{ width: 335px; height: 190px; display: block; position: absolute; top: 0; left: 0; z-index: 2;}
+main .sec3 .con .right dl:nth-child(2) dt a span{ background: rgba(26, 180, 195, 0.5);}
+main .sec3 .con .right dl dt a span:hover{ background: -webkit-linear-gradient(top,rgba(0,0,0,0),rgba(0,0,0,0.5));}
+
+main .sec4{ width: 100%; height: 375px; margin-top: 85px; clear: both; overflow: hidden;}
+main .sec4 dl{ width: 1000px; margin: 0 auto; overflow: hidden;}
+main .sec4 dl dd{ width: 520px; float: left; margin-left: 80px;}
+main .sec4 dl dt{ float: right; margin-right: 65px;}
+main .sec4 dl dt img{ display: block;}
+main .sec4 dl dd h1{ font-size: 32px; height: 32px; line-height:32px; color: #1ab4c3; font-weight: normal; margin-top: 90px;}
+main .sec4 dl dd h1 em{ font-style: normal; text-transform: uppercase; font-size: 16px; margin-left: 13px; color: #c3c3c3; }
+main .sec4 dl dd p{ font-size: 14px; color: #666666; margin-top: 15px;}
+
+footer{ width: 100%; height: 160px; background: #1ab4c3; min-width: 1000px;}
+footer .foot{ width: 1000px; margin: 0 auto; color: #fff; padding-top: 54px; overflow: hidden;}
+footer .foot .left p a{ color: #fff;}
+footer .foot .left p span{ width: 1px; height: 11px; background: #fff; margin: 0 10px; display: inline-block;}
+i{ background: url(../images/icon.jpg) no-repeat; display: inline-block; width: 20px; height: 20px; vertical-align: -12px;}
+footer .foot .right p:first-child{ width: 35px; height: 35px; border-radius: 50%; background: #fff; float: left;}
+footer .foot .right p:first-child i{ background-position: 0 0; margin-left: 8px;}
+footer .foot .right em:last-child{ font-size: 20px; line-height:20px; display: block; }
+footer .foot .right p:last-child{ float: right; margin-top: -5px; margin-left: 4px;}
+
+aside{  position: fixed; top: 300px; right: 5px; z-index: 5}
+b{ background: url(../images/icon1.jpg) no-repeat; display: inline-block; }
+aside ul li{ margin-top: 5px;}
+aside ul li:first-child{ width: 40px; height: 40px; background: #5993db;  }
+aside ul li:first-child a b{ background-position: -125px 0; width: 22px; height: 22px; margin: 9px;}
+aside ul li:nth-child(2){ width: 40px; height: 40px; background: #1ab4c3;}
+aside ul li:nth-child(2) a b{ background-position: -93px 0; width: 24px; height: 22px; margin: 9px 8px;}
+aside ul li:nth-child(3){ width: 40px; height: 40px; background: #ed5762;}
+aside ul li:nth-child(3) a b{ background-position: -65px 0; width: 23px; height: 19px; margin: 10px 8px;}
+aside ul li:nth-child(4){ width: 40px; height: 40px; background: #3fbc5d;}
+aside ul li:nth-child(4) a b{ background-position: -29px 0; width: 27px; height: 22px; margin: 9px 7px;}
+aside ul li:last-child{ width: 40px; height: 40px; background: #e9a400;}
+aside ul li:last-child a b{ background-position: 0 0; width: 18px; height: 25px; margin: 8px 11px;}
+aside .order .bot{ width: 100%; height: 100%; background: rgba(0,0,0,0.6); position: fixed; top: 0; left: 0; z-index: 8; display: none;}
+aside .order .top{ width: 500px; height: 560px; background:#fff; position: fixed; top: 50%; left: 50%; margin-left: -250px; margin-top: -280px; z-index: 9; display: none;}
+aside .order .top form{ width: 380px; margin: 0 auto;}
+aside .order .top button{ border: 0; width:16px; height: 16px; float: right; margin-top: 20px; margin-right: 20px; display: block;}
+aside .order .top button i{ background: url(../images/icon.jpg) no-repeat; background-position: -23px 0; width: 16px; height: 16px; display: inline-block; vertical-align: -4px;}
+aside .order .top form h3{ font-weight: normal; font-size: 22px; color: #1ab4c3; margin-top: 40px;}
+aside .order .top form select{ width: 378px; height: 46px; padding: 10px 7px; margin-top: 13px; font-family: "Microsoft YaHei"; border: 1px solid #d1d1d1;}
+aside .order .top form input{ width: 358px; height: 14px; font-size: 14px; padding: 15px 10px; border: 1px solid #d1d1d1; margin-top: 13px;}
+aside .order .top form textarea{ width: 358px; height: 88px; font-size:14px; padding: 15px 10px; border: 1px solid #d1d1d1; margin-top: 13px;}
+aside .order .top form input:last-child{ width:380px; background: #1ab4c3; text-align: center; line-height: 44px; height:44px; color: #fff; font-size: 16px; padding: 0; border: 0; cursor: pointer;}
+aside .wechat{ width: 128px; height: 128px; border: 1px solid #e0e0e0; background: #f4f4f4; position: fixed; top: 440px; right: 55px; display: none;}
+aside .wechat:after{ content: ""; position: absolute; top: 10px; right: -6px; width: 10px; height: 10px; border-top: 1px solid #e0e0e0; border-right: 1px solid #e0e0e0; background: #f4f4f4; transform: rotate(45deg);}
+aside .wechat b{ background-position: 0 -36px; width: 120px; height: 120px; margin: 4px;}
