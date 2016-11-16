@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>第十六节课作业</title>
+<link rel="stylesheet" type="text/css" href="css/public.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<script type="text/javascript" src="js/jquery-1.10.1.min.js"></script>
+<script type="text/javascript">
+$(function(){
+	$("aside ul li").hover(
+		function(){
+			$(this).find("#backtotop").addClass("hover");
+			$(this).addClass("hover");
+		},
+		function(){
+			$(this).find("#backtotop").removeClass("hover");
+			$(this).removeClass("hover");
+		})
+    $("aside ul li:nth-child(2) a").click(function(){
+        $("aside .order .bot").show();
+        $("aside .order .top").slideDown();
+    })
+    $("aside .order .top button").click(function(){
+        $("aside .order .bot").hide();
+        $("aside .order .top").hide();
+    })
+    $("aside ul li:nth-child(4)").mouseover(function(){
+    	$("aside .wechat").show();
+    })
+    $("aside ul li:nth-child(4)").mouseout(function(){
+    	$("aside .wechat").hide();
+    })
+    $("#backtotop").click(function(){
+    	$("html,body").animate({scrollTop:'0px'},800);
+    })
+
+    
+})
+</script>
+</head>
+
+<body>
+<header>
+	<div class="head">
+		<div class="logo fl"><img src="images/logo.png"></div>
+		<ul>
+			<li class="on"><a href="index.html">首页</a></li>
+			<li><a href="japan.html">日本医疗</a></li>
+			<li><a href="europe.html">欧洲医疗</a></li>
+			<li><a href="#">美国医疗</a></li>
+			<li><a href="example.html">医疗案例</a></li>
+			<li><a href="business.html">商业合作</a></li>
+			<li><a href="about.html">关于我们</a></li>
+		</ul>
+	</div>
+</header>
+
+<div class="banner">
+	<div class="ban"><a href="#" style="background:url(images/banner.jpg) no-repeat center 0; background-color:#dee8ed;"></a></div>
+	<div class="circle"><span class="on"></span><span></span><span></span></div>
+</div>
+
+<main>
+	<div class="sec1">
+		<dl>
+			<dt><img src="images/pic1.png"></dt>
+			<dd>
+				<h1>精密体检<em>precise physical examination</em></h1>
+				<p>采用海外先进医疗技术，精确到全身各部位的精密检查，全面覆盖人体9 大系统多发病症，包括癌症、呼吸循环，神经，消化系统等重大疾病以及高发慢性病，通过海外先进的技术手段和权威医生专业能力，及时排除您所有的担心和身体各个部位的隐患。</p>
+				<p><a href="examination.html"><span>+</span>查看详情</a></p>
+			</dd>
+		</dl>
+	</div>
+
+	<div class="sec2">
+		<h1>海外医疗</h1><em>overseas medical</em>
+		<div class="con">
+		    <dl>
+			    <dt><img src="images/pic2.png"></dt>
+			    <dd>
+				    <h2>日本高端体检</h2>
+				    <p>日本是世界上癌症防治最先进的国家，可以发现和排查300多种已知癌症…</p>
+			    </dd>
+		    </dl>
+		    <dl>
+			    <dt><img src="images/pic3.png"></dt>
+			    <dd>
+				    <h2>欧洲基因检测</h2>
+				    <p>北欧国家瑞士不仅是豪华钟表的集散地，更是高端医疗集中地，尖端和…</p>
+			    </dd>
+		    </dl>
+		    <dl>
+			    <dt><img src="images/pic4.png"></dt>
+			    <dd>
+				    <h2>美国癌症治疗</h2>
+				    <p>业务洽谈中，敬请期待…</p>
+			    </dd>
+		    </dl>
+		</div>
+	</div>
+
+	<div class="sec3">
+		<h1>管家服务</h1><em>butler service</em>
+		<div class="con">
+			<div class="left fl">
+				<dl>
+					<dt><a href="#"><span></span><img src="images/pic5.png"></a></dt>
+					<dd>
+						<h3>医</h3>
+						<p>来自全球顶级医疗机构和权威泰斗医师助健</p>
+					</dd>
+				</dl>
+			</div>
+			<div class="right fr">
+				<dl>
+					<dt><a href="#"><span></span><img src="images/pic6.png"></a></dt>
+					<dd>
+						<h3>食</h3>
+						<p>来自全球顶级医疗机构和权威泰斗医师助健</p>
+					</dd>
+				</dl>
+				<dl>
+					<dt><a href="#"><span></span><img src="images/pic9.png"></a></dt>
+					<dd>
+						<h4>旭和<span>xuhe</span></h4>
+						<p>旭和海外医疗服务团队全程为你而“战”</p>
+					</dd>
+				</dl>
+				<dl>
+					<dt><a href="#"><span></span><img src="images/pic7.png"></a></dt>
+					<dd>
+						<h3>住</h3>
+						<p>来自全球顶级医疗机构和权威泰斗医师助健</p>
+					</dd>
+				</dl>
+				<dl>
+					<dt><a href="#"><span></span><img src="images/pic8.png"></a></dt>
+					<dd>
+						<h3>行</h3>
+						<p>来自全球顶级医疗机构和权威泰斗医师助健</p>
+					</dd>
+				</dl>
+			</div>
+		</div>
+	</div>
+
+	<div class="sec4">
+		<dl>
+			<dt><img src="images/pic10.png"></dt>
+			<dd>
+				<h1>会员健康数据库<em>member health database</em></h1>
+				<p>旭和健康医疗团队时刻关爱您的身体健康，平台联合海外权威医疗机构共同打造私属会员健康数据档案，及时记录您身体的每一个变化。健康数据库能够更加直观地对自身身体各项指标进行科学的分析和部署，加入我们，选择健康……</p>
+			</dd>
+		</dl>
+	</div>
+</main>
+
+<footer>
+	<div class="foot">
+	    <div class="left fl">
+		    <p>
+			   <a href="#">关于我们</a><span></span>
+			   <a href="#">商业合作</a><span></span>
+			   <a href="#">联系我们</a><span></span>
+			   <a href="#">加入我们</a>
+		    </p>
+		    <p>Copyright © 北京旭和科技. All Rights Reserved. 京ICP备123456789号</p>
+	    </div>
+	    <div class="right fr">
+		    <p><i></i></p>
+		    <p><em>客服热线</em><em>400-880-6688</em></p>
+	    </div>
+	</div>
+</footer>
+
+<aside>
+	<ul>
+		<li><a href="#"><b></b></a></li>
+		<li><a href="javascript:;"><b></b></a></li>
+		<li><a href="#"><b></b></a></li>
+		<li><a href="javascript:;"><b></b></a></li>
+		<li id="backtotop"><a href="#"><b></b></a></li>
+	</ul>
+	<div class="order">
+		<div class="bot"></div>
+		<div class="top">
+			<button><i></i></button>
+            <form>
+                <h3>立即预约专家</h3>
+                <select>
+                	<option selected>选择医疗区域</option>
+                	<option>日本</option>
+                	<option>欧洲</option>
+                	<option>美国</option>
+                </select>
+                <input type="text" placeholder="姓名">
+                <input type="text" placeholder="电话">
+                <input type="text" placeholder="邮箱">
+                <textarea placeholder="您的留言"></textarea>
+                <input type="submit" value="提交预订">
+            </form>
+		</div>
+	</div>
+	<div class="wechat">
+		<b></b>
+	</div>
+</aside>
+
+
+
+
+</body>
+</html>
